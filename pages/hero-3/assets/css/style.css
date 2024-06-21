@@ -127,7 +127,7 @@ h4 {
     justify-content: space-around;
 }
 .bottom {
-    align-self: flex-start;
+    /* align-self: flex-start; */
     display: flex;
     justify-content: space-around;
     gap: 30dvh;
@@ -141,7 +141,7 @@ h4 {
     border: white 1px solid;
     color: white;
     padding: 5px;
-    width: 7rem;
+    width: 11rem;
 }
 
 .learn-more:hover {
@@ -154,7 +154,18 @@ h4 {
     color: #18181fdf;
 }
 
+h5 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+    padding: 5px 0;
+    width: 19rem;
+}
 
+.npc-id {
+    color: #8ee4f7;
+}
 
 
 
