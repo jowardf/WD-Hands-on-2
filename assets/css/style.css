@@ -11,7 +11,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
+    /* NAVBAR STYLING */
 nav {
     display: flex;
     justify-content: space-between;
@@ -40,7 +40,7 @@ nav {
     background-color: transparent;
     backdrop-filter: blur(50px);
 }
-
+    /* CSS STYLING */
 .middle {
     color: white;
     display: flex;

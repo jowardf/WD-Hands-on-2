@@ -1,0 +1,113 @@
+* {
+    /* outline: red 1px dashed; */
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(75, 61, 73);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+.btn:hover {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+}
+
+body {
+    height: 300vh;
+    width: 100vw;
+}
+
+.hero1 {
+    height: 100dvh;
+    width: 100%;
+    background-image: url(../img/sky.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    gap: 2.5rem;
+    padding: 10rem;
+    background-color: #18181f;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 17rem;
+    background-color: #2d3141;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: #2d3141 1px solid;
+    width: 17rem;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: justify;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    text-align: center;
+    border-top: #2d3141 1px solid;
+    padding: 5px 0;
+    width: 19rem;
+}
+
+.npc-id {
+    color: #8ee4f7;
+}
+
+
+
+
