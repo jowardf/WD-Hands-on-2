@@ -1,0 +1,163 @@
+* {
+    /* outline: white 1px dashed; */
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(75, 61, 73);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+.btn:hover {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+}
+
+body {
+    height: 300vh;
+    width: 100vw;
+}
+
+.hero3 {
+    height: 100dvh;
+    width: 100%;
+    background-image: url(../img/night.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    padding: 0;
+    background-color: #18181f2f;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 20px;
+}
+
+.card2 {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    padding: 0;
+    background-color: #18181f2f;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 20px;
+}
+
+.spazmatism {
+    padding: 15px;
+    rotate: 90deg;
+}
+.destroyer {
+    padding: 30px;
+}
+
+.icon1 {
+    background-image: linear-gradient(to right, gray, #18181f);
+    backdrop-filter: blur(20px);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.icon2 {
+    background-image: linear-gradient(to right, green, #18181f);
+    backdrop-filter: blur(20px);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h4 {
+    width: 80%;
+
+}
+.destroyer_icon {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    top: -35px;
+    left: 20px;
+    height: 50px;
+    position: absolute;
+    padding: 8px;
+}
+
+.spaz {
+    display: flex;
+    justify-content: space-around;
+}
+.bottom {
+    align-self: flex-start;
+    display: flex;
+    justify-content: space-around;
+    gap: 30dvh;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.learn-more {
+    background-color: transparent;
+    box-shadow: 0 0 3px black;
+    border: white 1px solid;
+    color: white;
+    padding: 5px;
+    width: 7rem;
+}
+
+.learn-more:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.learn-more:active {
+    background-color: white;
+    color: #18181fdf;
+}
+
+
+
+
+
+
+
+
