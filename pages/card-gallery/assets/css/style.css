@@ -9,6 +9,18 @@
     text-align: center;
 }
 
+i {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 8px black;
+    padding: 10px;
+    border-radius: 50%;
+}
 .animated-head {
     margin-top: 20rem;
     text-align: center;
@@ -430,7 +442,8 @@ nav {
 }
 
 .subtitle-moonlord {
-    filter: blur(0.7px) invert(40%);
+    filter: blur(0.7px);
+    mix-blend-mode: difference;
     font-size: 20px;
     padding: 20px 0 0 20px;
     letter-spacing: 10px;
@@ -521,15 +534,16 @@ nav {
 .anim-plantera:hover .h4-plantera{
     visibility: visible;
     transform: translateY(20rem);
-    transition: 0.5s ease-out;
 }
 
+.h4-plantera {
+    transition: 0.5s ease-out;
+}
 .relic {
     outline: 1px black dashed;
     position: absolute;
     bottom: -50%;
     left: 50%;
-    /* display: none; */
     opacity: 0;
     transform: translate(-50%, -50%);
 }
@@ -552,8 +566,11 @@ nav {
     height: 12rem;
 }
 
-.anim-moonlord:hover .title-moonlord {
+.title-moonlord {
     transition: 1.2s ease-in-out;
+}
+
+.anim-moonlord:hover .title-moonlord {
     filter: none;
     z-index: 0;
     transform: translate(10px, 10rem);
