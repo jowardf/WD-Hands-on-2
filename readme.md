@@ -66,7 +66,7 @@ Project demonstrate the coding of HTML and CSS in different kinds of Hero and Ca
 - Active Effect
 - Not Effect
 
-
+Deployment Link: https://jowardf.github.io/WD-Hands-on-2/
 ### Technology
 <!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
