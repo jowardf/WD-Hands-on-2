@@ -1,0 +1,442 @@
+* {
+    /* outline: 1px black dashed; */
+    margin: 0;
+    padding: 0;
+}
+
+.h-head {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.animated-head {
+    margin-top: 20rem;
+    text-align: center;
+}
+.design1 {
+    width: 100vw;
+    padding: 1rem 5vw;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+}
+
+body {
+    background-color:azure;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(75, 61, 73);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    background-color: black;
+    backdrop-filter: blur(10px);
+}
+.btn:hover {
+    background-color: lightgrey;
+    color: black;
+    backdrop-filter: blur(50px);
+}
+
+
+    /* HERO SLIME */
+.card-slime {
+    margin-left: 33rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    gap: 2.5rem;
+    background-color: #18181f;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.icon-slime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 17rem;
+    background-color: #2d3141;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.content-slime {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: #2d3141 1px solid;
+    width: 17rem;
+}
+
+.bottom-slime {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: justify;
+}
+
+.h5-slime {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    text-align: center;
+    border-top: #2d3141 1px solid;
+    padding: 5px 0;
+    width: 19rem;
+}
+
+.npc-id {
+    color: #8ee4f7;
+}
+
+    /* HERO WOF */
+.card-wof {
+    width: 25rem;
+    background-color: #18181fdf;
+    backdrop-filter: blur(10px);
+    box-shadow: 5px 5px 10px orangered;
+    color: white;
+    margin-left: 33rem;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.content-wof {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 70px;
+}
+
+.icon-wof {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: calc(100% - 1rem);
+    background-color: #2d3141;
+    padding: 5px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.bottom-wof {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: justify;
+}
+
+.h5-wof {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    text-align: center;
+    border-top: #2d3141 1px solid;
+    padding: 5px 0;
+    width: 19rem;
+}
+
+.guide-icon-wof {
+    position: absolute;
+    height: 75px;
+    top: -65px;
+    right: 45%;
+}
+
+.emblem-wof {
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    padding-top: 25px;
+}
+
+.hardmode-wof {
+    position: absolute;
+    bottom: 40px;
+    left: 45%;
+    background-color: #18181f;
+    color: white;
+    width: 12rem;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.bi-chevron-down {
+    position: absolute;
+}
+    /* HERO MECH */
+.card-mech {
+    margin-left: 32rem;
+    width: 30rem;
+    background-color: #18181f2f;
+    backdrop-filter: blur(10px);
+    color: white;
+    border-radius: 20px;
+}
+
+.destroyer {
+    padding: 30px;
+}
+
+.icon1-mech {
+    background-image: linear-gradient(to right, gray, #18181f);
+    backdrop-filter: blur(20px);
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    padding: 15px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.h4-mech {
+    width: 80%;
+
+}
+.destroyer_icon {
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    top: -35px;
+    left: 20px;
+    height: 50px;
+    position: absolute;
+    padding: 8px;
+}
+
+.bottom-mech {
+    /* align-self: flex-start; */
+    display: flex;
+    justify-content: space-around;
+    gap: 30dvh;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.learn-more {
+    background-color: transparent;
+    box-shadow: 0 0 3px black;
+    border: white 1px solid;
+    color: white;
+    padding: 5px;
+    width: 11rem;
+}
+
+.learn-more:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+.learn-more:active {
+    background-color: white;
+    color: #18181fdf;
+}
+
+.h5-mech {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+    padding: 5px 0;
+    width: 19rem;
+}
+
+    /* HERO PLANTERA */
+.card-plantera {
+    background-image: url(../../../hero-4/assets/img/Plantera2.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    height: 25rem;
+    width: 15rem;
+    padding: 10px 0;
+    margin-left: 36rem;
+    background-color: rgba(0, 128, 0, 0.8);
+    box-shadow: 0 0 30px goldenrod, 0 0 10px greenyellow inset;
+    backdrop-filter: blur(10px);
+    border: 2px goldenrod solid;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.content-plantera {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+.plantera-icon {
+    height: 40px;
+}
+
+.desc-plantera {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 70%;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15rem;
+    height: 50vh;
+}
+
+.h4-plantera {
+    font-size: 20px;
+    letter-spacing: 7px;
+    background-color: #2d4120;
+    box-shadow: 0 0 5px black;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 1px greenyellow solid;
+    box-shadow: 0 0 5px black;
+}
+
+.h5-plantera {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 2px;
+    width: 15rem;
+}
+
+.bottom-plantera {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    width: 13rem;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(0, 115, 0);
+    box-shadow: 0 0 5px greenyellow;
+    backdrop-filter: blur(30px);
+}
+
+    /* HERO MOONLORD */
+.card-moonlord {
+    margin-left: 31rem;
+    height: 20rem;
+    width: 30rem;
+    padding: 0;
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.moonlord {
+    position: absolute;
+    top: -1rem;
+    height: 30rem;
+    filter: drop-shadow(0 0 50px black);
+}
+
+.card-bg-moonlord {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    height: 35rem;
+    width: 25rem;
+    background-color: white;
+    background-image: linear-gradient(to bottom, lightblue, black);
+    transform: perspective(900px) translateY(-5%) rotateX(25deg) translateZ(0);
+    box-shadow: 0 20px 30px lightblue;
+    z-index: -1;
+}
+
+.desc-moonlord, .content-moonlord {
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.content-moonlord {
+    height: 100%;
+}
+
+.desc-moonlord {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    bottom: -10rem;
+    width: 40rem;
+}
+
+.title-moonlord {
+    position: absolute;
+    top: -27rem;
+    background-color: transparent;
+    /* backdrop-filter: blur(2px); */
+    filter: blur(1px);
+    width: 60rem;
+    text-align: center;
+    text-shadow: 2px 2px lightblue;
+    letter-spacing: 30px;
+    font-size: 80px;
+    z-index: -1;
+}
+
+.subtitle-moonlord {
+    filter: blur(0.7px);
+    font-size: 20px;
+    padding: 20px 0 0 20px;
+    letter-spacing: 10px;
+}
+
+
+
+

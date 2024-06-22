@@ -47,7 +47,7 @@ body {
     position: relative;
 }
 
-.card {
+.card-mech {
     position: absolute;
     top: 25%;
     left: 20%;
@@ -60,7 +60,7 @@ body {
     border-radius: 20px;
 }
 
-.card2 {
+.card2-mech {
     position: absolute;
     top: 60%;
     left: 20%;
@@ -81,7 +81,7 @@ body {
     padding: 30px;
 }
 
-.icon1 {
+.icon1-mech {
     background-image: linear-gradient(to right, gray, #18181f);
     backdrop-filter: blur(20px);
     position: relative;
@@ -94,7 +94,7 @@ body {
     border-bottom-right-radius: 20px;
 }
 
-.icon2 {
+.icon2-mech {
     background-image: linear-gradient(to right, green, #18181f);
     backdrop-filter: blur(20px);
     position: relative;
@@ -107,7 +107,7 @@ body {
     border-bottom-right-radius: 20px;
 }
 
-h4 {
+.h4-mech {
     width: 80%;
 
 }
@@ -126,7 +126,7 @@ h4 {
     display: flex;
     justify-content: space-around;
 }
-.bottom {
+.bottom-mech {
     /* align-self: flex-start; */
     display: flex;
     justify-content: space-around;
@@ -154,7 +154,7 @@ h4 {
     color: #18181fdf;
 }
 
-h5 {
+.h5-mech {
     display: flex;
     justify-content: center;
     text-align: center;
